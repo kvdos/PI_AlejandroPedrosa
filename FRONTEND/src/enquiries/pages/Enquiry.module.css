@@ -1,0 +1,16 @@
+.shadow {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.128);
+}
+
+.icon svg {
+  color: #7f0597;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 576px) {
+  .shadow {
+    border-bottom: 0;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.522);
+    border-radius: 5px;
+  }
+}

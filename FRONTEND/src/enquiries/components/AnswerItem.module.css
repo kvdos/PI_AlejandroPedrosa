@@ -1,0 +1,28 @@
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon {
+  color: #7f0597;
+}
+
+.heart-clicked {
+  animation: heartbeat 1s;
+  fill: #7f0597;
+  color: #7f0597;
+}
+
+.date {
+  color: rgb(155, 155, 155);
+  font-size: 0.8rem;
+}

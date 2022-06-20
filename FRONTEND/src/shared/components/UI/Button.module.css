@@ -1,0 +1,53 @@
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-submit {
+  width: 100%;
+  background-color: #7f0597;
+  color: white;
+}
+
+.btn-submit:focus,
+.btn-submit:hover {
+  color: white;
+  background-color: #c11ee1;
+}
+
+.btn-extra {
+  width: 100%;
+  background-color: rgb(77, 203, 77);
+  color: white;
+}
+
+.btn-extra:focus,
+.btn-extra:hover {
+  color: white;
+  background-color: rgb(126, 204, 126);
+}
+
+.btn-cancel {
+  width: 100%;
+  background-color: rgb(182, 65, 47);
+  color: white;
+}
+
+.btn-cancel:focus,
+.btn-cancel:hover {
+  color: white;
+  background-color: rgb(222, 111, 94);
+}
+
+@media (min-width: 576px) {
+  .btn-submit {
+    width: fit-content;
+  }
+  .btn-extra {
+    width: fit-content;
+  }
+
+  .btn-cancel {
+    width: fit-content;
+  }
+}

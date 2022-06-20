@@ -1,0 +1,15 @@
+.image img {
+  width: 160px;
+}
+
+@media (min-width: 576px) {
+  .image img {
+    width: 220px;
+  }
+}
+
+@media (min-width: 992px) {
+  .image img {
+    width: 300px;
+  }
+}

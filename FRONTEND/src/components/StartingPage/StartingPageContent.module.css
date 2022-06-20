@@ -1,0 +1,11 @@
+.content h2,
+.content svg {
+  color: white;
+  font-weight: bold;
+  overflow: visible;
+}
+
+.content p {
+  display: none;
+  color: white;
+}

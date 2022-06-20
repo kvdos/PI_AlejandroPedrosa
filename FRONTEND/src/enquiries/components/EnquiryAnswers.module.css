@@ -1,0 +1,29 @@
+.options {
+  background-color: rgb(245, 221, 253);
+  --bs-gutter-x: 0;
+}
+
+.options .tab {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.224);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.options .left {
+  border-top-left-radius: 0;
+  border-left: 0;
+  border-bottom: 1px solid white;
+  background-color: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.224);
+  border-right: 1px solid rgba(0, 0, 0, 0.224);
+}
+
+.options .right {
+  border-top-right-radius: 0;
+  border-right: 0;
+  border-bottom: 1px solid white;
+  background-color: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.224);
+  border-left: 1px solid rgba(0, 0, 0, 0.224);
+}

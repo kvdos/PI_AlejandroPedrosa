@@ -1,0 +1,31 @@
+.box {
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.522);
+}
+
+.box button:hover {
+  background: rgb(247, 246, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 246, 246, 1) 10%,
+    rgba(178, 106, 227, 1) 50%,
+    rgba(247, 246, 246, 1) 90%
+  );
+}
+
+.box button:hover svg {
+  color: rgb(126, 204, 126);
+}
+
+.box h3 {
+  font-size: 1rem;
+}
+
+.box svg {
+  color: rgb(132, 132, 132);
+}
+
+@media (min-width: 576px) {
+  .box h3 {
+    font-size: 1.2rem;
+  }
+}

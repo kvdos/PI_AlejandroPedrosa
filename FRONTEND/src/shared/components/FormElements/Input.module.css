@@ -1,0 +1,22 @@
+.bg-invalid {
+  background-color: #fddddd !important;
+}
+
+.input h2 {
+  color: #7f0597;
+}
+
+.input input,
+.input textarea {
+  background-color: #f8f9fa;
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input input:focus,
+.input textarea:focus {
+  outline: none;
+  border-color: #7f0597;
+  background-color: #f8f9fa;
+}

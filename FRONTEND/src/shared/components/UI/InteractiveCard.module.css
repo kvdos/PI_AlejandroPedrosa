@@ -1,0 +1,71 @@
+.zoom:hover h2,
+.zoom:hover svg {
+  transform: scale(1.1);
+}
+
+.bg-amarillo {
+  background-color: rgba(243, 163, 13, 0.671);
+}
+
+.bg-verde {
+  background-color: rgba(27, 186, 98, 0.721);
+}
+
+.bg-blue {
+  background-color: rgba(41, 202, 238, 0.721);
+}
+
+.size-small {
+  height: 20vh;
+}
+
+.size-small-expand {
+  height: 20vh;
+}
+
+.size-medium {
+  height: 30vh;
+}
+
+.size-medium-expand {
+  height: 30vh;
+}
+
+.full-height {
+  height: 100%;
+}
+
+@keyframes showup {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.btn {
+  height: 100%;
+  width: 100%;
+}
+
+.show-text p {
+  display: block !important;
+  overflow: hidden;
+  animation: showup 1s;
+}
+
+@media (min-width: 768px) {
+  .size-small-expand {
+    height: 30vh;
+  }
+
+  .size-medium-expand {
+    height: 50vh;
+  }
+
+  .show-text {
+    padding: 0 20%;
+  }
+}

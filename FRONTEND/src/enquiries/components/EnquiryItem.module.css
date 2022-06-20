@@ -1,0 +1,26 @@
+.link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link p {
+  color: rgb(155, 155, 155);
+  font-size: 0.8rem;
+}
+
+.full-enquiry {
+  border-radius: 0%;
+}
+
+.short-enquiry .link {
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  color: white;
+  background-color: #7f0597c1;
+}
+
+.short-enquiry .icon {
+  background-color: rgb(246, 246, 246);
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}

@@ -1,0 +1,64 @@
+.nav-icon {
+  color: black;
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+.user-btn:focus {
+  box-shadow: none;
+}
+
+.link a {
+  color: white !important;
+}
+
+.link p {
+  text-align: start;
+}
+
+.link svg {
+  font-size: 1.5rem;
+}
+
+.link a:hover {
+  color: rgb(126, 204, 126) !important;
+}
+
+.offcanvas-cambios {
+  width: 60vw;
+  background-color: #7f0597;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title h4 {
+  font-size: 16px;
+}
+
+.title p {
+  font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  .offcanvas-cambios {
+    width: 50vw;
+  }
+  .title h4 {
+    font-size: 20px;
+  }
+  .title p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .offcanvas-cambios {
+    width: 40vw;
+  }
+}
